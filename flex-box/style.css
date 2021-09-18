@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    font-size: 20px;
+}
+.header {
+    outline: 1px solid aqua;
+    height: 3rem;
+}
+.menu {
+    display: flex;
+}
+.menu__item {
+    list-style: none;
+    flex: 1;
+    outline: 1px solid cyan;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex 0.5s;
+}
+.menu__item:hover {
+    flex: 8;
+}
+.container {
+    outline: 1px solid blue;
+    display: flex;
+    height: inherit;
+}
+.content {
+    outline: 1px solid cadetblue;
+    flex: 1;
+}
+.aside {
+    outline: 1px solid dodgerblue;
+    flex: 0 0 25%;
+}
+.footer {
+    outline: 1px solid cornflowerblue;
+    height: 6rem;
+    margin-top: auto;
+}
